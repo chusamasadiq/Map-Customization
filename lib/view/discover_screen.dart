@@ -256,9 +256,12 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   width: 4.0,
                 ),
               ),
-              child: const Center(
+              child:  Center(
                 child: Text(
                   'Helping the most vulnerable during the COVID-19 pandemic',
+                  style: TextStyle(
+                    fontSize: MediaQuery.of(context).textScaleFactor * 14
+                  ),
 
                 ),
               ),
