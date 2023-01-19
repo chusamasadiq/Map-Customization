@@ -245,7 +245,24 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
               height: screenHeight / 4,
               width: screenWidth * 0.8,
               offset: 35,
-            )
+            ),
+            Container(
+              height: screenHeight * 0.06,
+              width: screenWidth,
+              decoration: BoxDecoration(
+                color: Colors.green[200],
+                border: Border.all(
+                  color: Colors.blue,
+                  width: 4.0,
+                ),
+              ),
+              child: const Center(
+                child: Text(
+                  'Helping the most vulnerable during the COVID-19 pandemic',
+
+                ),
+              ),
+            ),
           ],
         ),
       ),
